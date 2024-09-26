@@ -10,7 +10,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - name: Setup Go
-              uses: actions/setupgo@v1
+              uses: actions/setup-go@v5.0.2
               with:
                 go-version: '1.14.0'
             - name: Download Go Application
